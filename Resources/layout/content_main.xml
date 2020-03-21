@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/activity_main">
+
+    <EditText
+        android:id="@+id/edPeso"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="500px"
+        android:layout_marginBottom="20px"
+        android:inputType="numberDecimal"
+        android:hint="DIGITE O PESO"
+        android:textColorHint="@android:color/black"
+        android:background="@android:color/white"
+        android:gravity="center_horizontal"
+        android:textSize="50px"
+        android:textStyle="bold"
+        android:numeric="decimal"/>
+
+    <EditText
+        android:id="@+id/edAltura"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:layout_marginBottom="25px"
+        android:hint="DIGITE A ALTURA"
+        android:textSize="50px"
+        android:textStyle="bold"
+        android:numeric="decimal"
+        android:gravity="center_horizontal"
+        android:background="@android:color/white"
+        android:textColorHint="@android:color/black"/>
+
+    <Button
+        android:text="COMO EU ESTOU"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:background="@android:color/transparent"
+        android:textSize="60px"
+        android:textColor="@android:color/white"
+        android:id="@+id/btnCalculo" />
+</LinearLayout>

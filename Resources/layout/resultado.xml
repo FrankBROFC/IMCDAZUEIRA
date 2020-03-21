@@ -1,0 +1,31 @@
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="50px"
+        android:fontFamily="monospace"
+        android:textStyle="bold"
+        android:text="Teste"
+        android:textColor="#ffffff"
+        android:textAlignment="center"
+        android:id="@+id/txtResultado"/>
+    <ImageView
+        android:id="@+id/imgMeme"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignBottom="@id/txtResultado"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/imgMeme"
+        android:layout_alignBottom="@id/imgMeme"
+        android:id="@+id/txtFraseMotivadora"
+        android:textSize="50px"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"/>
+</RelativeLayout>

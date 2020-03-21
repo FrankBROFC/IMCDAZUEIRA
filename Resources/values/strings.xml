@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">IMC DA ZUEIRA</string>
+    <string name="action_settings">Settings</string>
+  <string name="frase_emagracimento_01">UMA JORNADA DE MILHARES DE QUILÔMETROS COMEÇA COM UM PASSO.</string>
+  <string name="frase_emagrecimento_02">EMAGRECER NÃO É PARAR DE COMER, E SIM, MUDAR OS HÁBITOS ALIMENTARES</string>
+  <string name="frase_emagrecimento_03">DAQUI A UM ANO VOCÊ VAI DESEJAR TER COMEÇADO HOJE</string>
+  <string name="frase_emagrecimento_04">NÃO HÁ MUNDANÇA DE PESO SEM MUDANÇA NO COMPORTAMENTO</string>
+  <string name="frase_peso_ideal_01">CUIDE-SE COMO SE VOCÊ FOSSE DE OURO, PONHA-SE VOCÊ MESMO DE VEZ EM QUANDO NUMA REDOMA E POUPE-SE</string>
+</resources>
+
